@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg'); /* Remplacez par votre image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9); /* Fond blanc légèrement transparent */
+    padding:40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    color: #ffc800; /* Jaune orangé */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #f3ab25; /* Jaune orangé */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f7aa1b; /* Jaune orangé plus foncé */
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.options label {
+    color: #333;
+}
+
+.options a {
+    color: #f5b624;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login p {
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-icon {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icon.facebook {
+    background-color: #3b5998; /* Bleu Facebook */
+}
+
+.social-icon.twitter {
+    background-color: #1da1f2; /* Bleu Twitter */
+}
+
+.social-icon:hover {
+    opacity: 0.9;
+}
+
+.create-account {
+    margin-top: 20px;
+}
+
+.create-account p {
+    color: #333;
+}
+
+.create-account a {
+    color: #FFA500; /* Jaune orangé */
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline;
+}

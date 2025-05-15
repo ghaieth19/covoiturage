@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "league/oauth2-facebook": "^2.2"
+    }
+}
